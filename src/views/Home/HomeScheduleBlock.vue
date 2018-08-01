@@ -8,6 +8,7 @@
     </div>
   </section>
 </template>
+
 <script>
   import { scheduleInfo } from '@/data/index';
   import ScheduleTable from './HomeScheduleTable.vue';
@@ -31,6 +32,4 @@
     margin 20px 0
     .title
       text-align center
-
-
 </style>

@@ -5,38 +5,34 @@
         <div class="block">
           <div class="bg">
             <span class="digit">{{ days }}</span>
-            <span class="text">Días</span>
+            <span class="text">Days</span>
           </div>
         </div>
         <div class="block">
           <div class="bg">
             <span class="digit">{{ hours }}</span>
-            <span class="text">Horas</span>
+            <span class="text">Hours</span>
           </div>
         </div>
         <div class="block">
           <div class="bg">
             <span class="digit">{{ minutes }}</span>
-            <span class="text">Minutos</span>
+            <span class="text">Minutes</span>
           </div>
         </div>
         <div class="block">
           <div class="bg">
             <span class="digit">{{ seconds }}</span>
-            <span class="text">Segundos</span>
+            <span class="text">Seconds</span>
           </div>
         </div>
       </div>
       <template v-else>
         <div class="text-center">
-          <p class="lead mb-0">Sigue el evento en <a href="https://twitter.com/baumannzone">twitter</a> con el siguiente
+          <p class="lead mb-0">Follow the event on <a href="https://twitter.com/gdgcloudmadrid">twitter</a> with the following
             hashtag: </p>
           <h3 class="mb-3">
-            <a href="https://twitter.com/hashtag/DevJourneyMad18?src=hash" target="_blank">#DevJourneyMad18</a>
-          </h3>
-          <p class="lead mb-0">Las fotos con Rambo 🐶 con el hashtag:</p>
-          <h3>
-            <a href="https://twitter.com/hashtag/RamboMamboDJM18?src=hash" target="_blank">#RamboMamboDJM18</a>
+            <a href="https://twitter.com/hashtag/cloudfest?src=hash" target="_blank">#CloudFest</a>
           </h3>
         </div>
       </template>

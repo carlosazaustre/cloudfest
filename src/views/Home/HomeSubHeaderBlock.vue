@@ -3,7 +3,7 @@
     <div class="container">
       <div class="block">
         <p class="shadow-text mt-0 mb-0 mr-3">
-          Consigue tu entrada <strong>GRATIS</strong> aquí
+          Get your tickets here
           <!--<span class="badge badge-pill badge-secondary">{{ data.ticketCode }}</span>-->
         </p>
         <router-link to="/tickets"

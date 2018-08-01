@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="logo">
         <router-link to="/">
-          <img src="../assets/img/djm-logo.png" alt="Dev Journey Madrid Logo">
+          <img src="../assets/img/djm-logo.png" alt="CloudFest Madrid Logo">
         </router-link>
       </div>
       <div class="items">
@@ -23,8 +23,9 @@
       return {
         navLinks: [
           { displayName: 'Home', to: '/' },
-          { displayName: 'About', to: '/about' },
-          { displayName: 'Blog', to: '/blog' },
+          { displayName: 'Tickets', to: '/tickets' },
+          { displayName: 'C4P', to: '/c4p' },
+          { displayName: 'Code of Conduct', to: '/coc' },
         ],
       };
     },
@@ -58,13 +59,13 @@
       /*font-size 22px*/
       a
         font-weight bold
-        color #2c3e50
+        color #3F51B5
         transition: all 0.2s ease
         &:hover
           text-decoration none
           border-bottom 3px solid #ccc
         &.router-link-exact-active
-          color #4dadf7
+          color #3F51B5
           border-bottom 3px solid #ccc
 
 </style>

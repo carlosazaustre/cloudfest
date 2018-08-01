@@ -10,23 +10,10 @@
       </div>
       <div class="credit text-center">
         <div class="block">
-          <p class="mb-0 el-cursor text-muted">
+          <p class="mb-0 text-muted">
             <i class="fa fa-code text-primary" aria-hidden="true"></i>
-            by <b>Jorge Baumann</b> with
-            <i class="fa fa-heart-o text-danger" aria-hidden="true"></i>
+            Based in <b><a href="https://github.com/DevJourneyMadrid/june-18">Dev Journey Madrid Template</a></b>
           </p>
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/baumannzone" class="twitter">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/baumannzone" class="github">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -40,9 +27,9 @@
       return {
         info: {},
         linksList: [
-          { displayName: 'Github', to: 'https://github.com/DevJourneyMadrid/june-18' },
-          { displayName: '#DJM', to: 'https://github.com/DevJourneyMadrid' },
-          { displayName: 'Entradas', to: 'https://devjourneymadrid18.eventbrite.es' },
+          { displayName: 'GDG Spain', to: 'https://gdg.es' },
+          { displayName: 'DevFest Season 2018', to: 'https://developers.google.com/events/devfest/' },
+          { displayName: 'Google Cloud Developer Communities', to: 'https://cloud.google.com/community/meetups/' },
         ],
       };
     },
@@ -51,19 +38,16 @@
 
 <style lang="stylus" scoped>
   footer
-    border-top 8px solid #4dadf7
+    border-top 8px solid #3F51B5
     min-height 150px
     padding-top 20px
     padding-bottom 20px
 
   .links
     a
-      color: #333
+      color: #3F51B5
       font-weight bolder
       margin-right 15px
-
-  .el-cursor
-    cursor url("../assets/img/cursor.png") , auto;
 
   .social-links
     a.github

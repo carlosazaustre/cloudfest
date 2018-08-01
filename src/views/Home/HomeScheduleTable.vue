@@ -6,7 +6,7 @@
         <col width="78px"/>
         <thead>
         <tr>
-          <th scope="col" class="text-uppercase">Hora</th>
+          <th scope="col" class="text-uppercase">Time</th>
           <th scope="col" class="text-uppercase">{{ track.displayName }}</th>
         </tr>
         </thead>

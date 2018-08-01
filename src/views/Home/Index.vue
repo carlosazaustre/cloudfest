@@ -5,6 +5,7 @@
     <HomeSubHeader :data="info"/>
     <AboutBlock/>
     <HomeScheduleBlock/>
+    <InfoBlock/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@
   import HomeScheduleBlock from './HomeScheduleBlock.vue';
   import AboutBlock from './HomeAboutBlock.vue';
   import CountDownTimer from './HomeCountDownTimer.vue';
+  import InfoBlock from './InfoBlock.vue';
 
   export default {
     name: 'home',
@@ -32,6 +34,7 @@
       HomeScheduleBlock,
       HomeHeader,
       HomeSubHeader,
+      InfoBlock,
     },
   };
 </script>
